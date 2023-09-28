@@ -18,7 +18,7 @@ def seed_database():
             )
             db.session.add(restaurant)
 
-        # Create and seed pizza types
+    
         pizzas_data = [
             {"name": "Cheese", "ingredients": "Dough, Tomato Sauce, Cheese"},
             {"name": "Pepperoni", "ingredients": "Dough, Tomato Sauce, Cheese, Pepperoni"},
